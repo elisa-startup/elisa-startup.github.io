@@ -34,10 +34,15 @@
               <a href="#2" class="nav__link c-yellow scrolly"><img src="img/about-icon.png" alt=""></a>
             </li>
             <li class="nav__item">
-              <a href="#3" class="nav__link c-red"><img src="img/projects-icon.png" alt=""></a>
+              <a href="#3" class="nav__link c-red"><img src="img/briefcase-solid.svg" style="stroke: white; fill: white; width: 45px;" alt=""></a>
             </li>
             <li class="nav__item">
               <a href="#4" class="nav__link c-green"><img src="img/contact-icon.png" alt=""></a>
+            </li>
+            <li class="nav__item">
+              <div class="nav__link c-green"><img id="cambio-idioma" src="img/united-kingdom.png" style="stroke: white; fill: white; width: 45px;" alt=""></div>
+              <!-- <div class="nav__link c-green"><img id="cambio-idioma" src="img/earth-americas-solid.svg" style="stroke: white; fill: white; width: 45px;" alt=""></div> -->
+              <!-- <a href="#4" class="nav__link c-green"><img id="cambio-idioma" src="img/earth-americas-solid.svg" style="stroke: white; fill: white; width: 45px;" alt=""></a> -->
             </li>
           </ul>
         </nav>
@@ -58,7 +63,7 @@
                         <div class="col-md-12">
                           <div class="home-box-content">
                             <div class="left-text">
-                              <h4><em>startup</em> helping <em>startups<em></h4>
+                              <h4><em>startup</em> <span id="slogan-1">helping</span> <em>startups<em></h4>
                             </div>
                           </div>
                           <div class="home-box-content">
@@ -66,7 +71,7 @@
                               <!-- <h4>New <em>Stacked</em> Template</h4> -->
                               <!-- <h4><em>startup</em> helping <em>startups<em></h4> -->
                               <!-- <p>We are a <em>startup</em> company specializing in technology support for other <em>startups<em></p> -->
-                              <h4>We are a <em>startup</em> company specializing in technology support for other <em>startups<em></h4>
+                              <h4><span id="slogan-2-1">We are a</span> <em>startup</em> <span id="slogan-2-2">company specializing in technology support for other</span> <em>startups<em></h4>
                               <!-- <div class="primary-button"> -->
                               <!--   <a href="#2">Discover More</a> -->
                               <!-- </div> -->
@@ -98,16 +103,11 @@
                         <div class="col-md-12">
                           <div class="about-box-content">
                             <img src="img/about.jpg" alt="">
-                            <!-- <img src="img/about-image.png" alt=""> -->
                           </div>
                         </div>
                         <div class="col-md-7 col-md-offset-5">
                           <div class="about-box-text">
-                            <!-- <h4>Curabitur varius sapien</h4> -->
-                            <p>We are a startup company specializing in infrastructure support for other startups. With our extensive experience in cloud infrastructure, devops, and process optimization, we help startups succeed in their ventures.</p>
-                            <!-- <div class="primary-button"> -->
-                            <!--   <a href="#3">Discover More</a> -->
-                            <!-- </div> -->
+                            <p id="about">With our extensive experience in cloud infrastructure, devops, process optimization, continuous deployment, testing, monitoring, etc., we help startups to succeed in their business ventures</p>
                           </div>
                         </div>
                       </div>
@@ -126,7 +126,7 @@
                   <div class="col-md-8 col-md-offset-2">
                     <div class="projects-content">
                       <div class="heading">
-                        <h4>Services</h4>
+                        <h4 id="service">Services</h4>
                       </div>
                       <div class="row">
                         <div class="col-md-12">
@@ -135,8 +135,8 @@
                               <div class="project-item">
                                 <img src="img/cloud-2.jpg" alt="">
                                 <div class="text-content">
-                                  <h4>infrastructure</h4>
-                                  <p>We manage both native and cloud infrastructure. We have experience in GCP and AWS. We can build technology from scratch or manage existing technology</p>
+                                  <h4 id="infra-t">infrastructure</h4>
+                                  <p id="infra">We manage both native and cloud infrastructure. We have experience in GCP and AWS. We can build technology from scratch or manage existing technology</p>
                                   <!-- <div class="primary-button"> -->
                                   <!--   <a href="#">Discover More</a> -->
                                   <!-- </div> -->
@@ -148,7 +148,7 @@
                                 <img src="img/devops2.jpg" alt="">
                                 <div class="text-content">
                                   <h4>DevOps</h4>
-                                  <p>We will speed up the software development lifecycle and provide continuous high quality delivery using common tools without increasing costs</p>
+                                  <p id="devops">We will speed up the software development lifecycle and provide continuous high quality delivery using common tools without increasing costs</p>
                                   <!-- <div class="primary-button"> -->
                                   <!--   <a href="#">Discover More</a> -->
                                   <!-- </div> -->
@@ -160,7 +160,7 @@
                                 <img src="img/performance.jpg" alt="">
                                 <div class="text-content">
                                   <h4>Performance</h4>
-                                  <p>By monitoring your processes we will be able to detect bottlenecks in your workflow, increasing your business and processing performance</p>
+                                  <p id="perf">By monitoring your processes we will be able to detect bottlenecks in your workflow, increasing your business and processing performance</p>
                                   <!-- <div class="primary-button"> -->
                                   <!--   <a href="#">Discover More</a> -->
                                   <!-- </div> -->
@@ -171,8 +171,8 @@
                               <div class="project-item">
                                 <img src="img/documentation.jpg" alt="">
                                 <div class="text-content">
-                                  <h4>Documentation</h4>
-                                  <p> Documentation of process improvements and transformations is vital for the continued growth of a company and, above all, for its independence and knowledge</p>
+                                  <h4 id="doc-t">Documentation</h4>
+                                  <p id="doc">Documentation of process improvements and transformations is vital for the continued growth of a company and, above all, for its independence and knowledge</p>
                                   <!-- <div class="primary-button"> -->
                                   <!--   <a href="#">Discover More</a> -->
                                   <!-- </div> -->
@@ -183,8 +183,8 @@
                               <div class="project-item">
                                 <img src="img/monitor-1.jpg" alt="">
                                 <div class="text-content">
-                                  <h4>Monitoring</h4>
-                                  <p>Knowing where a company stands allows it to move in the right direction. Measurements allow to know it and the combination with alerts allows to provide the best service</p>
+                                  <h4 id="mon-t">Monitoring</h4>
+                                  <p id="mon">Knowing where a company stands allows it to move in the right direction. Measurements allow to know it and the combination with alerts allows to provide the best service</p>
                                   <!-- <div class="primary-button"> -->
                                   <!--   <a href="#">Discover More</a> -->
                                   <!-- </div> -->
@@ -195,8 +195,8 @@
                               <div class="project-item">
                                 <img src="img/process.jpg" alt="">
                                 <div class="text-content">
-                                  <h4>Process Design</h4>
-                                  <p>We accompany you in the design of new projects, analyzing the best technology to implement according to the needs of the requirements, making an effective and efficient operation</p>
+                                  <h4 id="proce-t">Process Design</h4>
+                                  <p id="proce">We accompany you in the design of new projects, analyzing the best technology to implement according to the needs of the requirements, making an effective and efficient operation</p>
                                   <!-- <div class="primary-button"> -->
                                   <!--   <a href="#">Discover More</a> -->
                                   <!-- </div> -->
@@ -207,8 +207,8 @@
                               <div class="project-item">
                                 <img src="img/testing.jpg" alt="">
                                 <div class="text-content">
-                                  <h4>Testing Process</h4>
-                                  <p>Delivering quality software on a continuous basis requires constant testing processes and at each modification of the software. This prevents bad implementations</p>
+                                  <h4 id="t-t">Testing Process</h4>
+                                  <p id="t">Delivering quality software on a continuous basis requires constant testing processes and at each modification of the software. This prevents bad implementations</p>
                                   <!-- <div class="primary-button"> -->
                                   <!--   <a href="#">Discover More</a> -->
                                   <!-- </div> -->
@@ -233,7 +233,7 @@
                   <div class="col-md-8 col-md-offset-2">
                     <div class="contact-content">
                       <div class="heading">
-                        <h4>Contact us</h4>
+                        <h4 id="cont">Contact us</h4>
                       </div>
                       <div class="row">
                         <div class="col-md-8">
@@ -256,9 +256,10 @@
                         </div>
                         <div class="col-md-4">
                           <div class="more-info">
-                            <p>Lorem ipsum dolor , consectetur adipiscing elit. Nunc purus ligula, ullamcorper id velit id, vestibulum auc sapien. Sed quis mauris eget sem imperdiet rhoncus.<br><br>
-                            <em>3344 Etiam mauris erat,
-								<br>Vestibulum eu augue nec, 10550</em></p>
+                            <p><span id="l-1">Your inquiry is not a bother</span><br>
+                              <span id="l-2">We will contact you as soon as possible</span>
+                                <br><br>
+                                <em>ELISA LLC</em></p>
                           </div>
                         </div>
                       </div>
@@ -292,6 +293,82 @@
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+
+        <!-- Translate -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var traducciones = {
+                    "en": {
+                        "slogan-1": "HELPING",
+                        "slogan-2-1": "We are a",
+                        "slogan-2-2": "company specializing in technology support for other",
+                        "about": "With our extensive experience in cloud infrastructure, devops, process optimization, continuous deployment, testing, monitoring, etc., we help startups to succeed in their business ventures",
+                        "infra-t": "INFRASTRUCTURE",
+                        "infra": "We manage both native and cloud infrastructure. We have experience in GCP and AWS. We can build technology from scratch or manage existing technology",
+                        "devops": "We will speed up the software development lifecycle and provide continuous high quality delivery using common tools without increasing costs",
+                        "perf": "By monitoring your processes we will be able to detect bottlenecks in your workflow, increasing your business and processing performance",
+                        "doc-t": "DOCUMENTATION",
+                        "doc": "Documentation of process improvements and transformations is vital for the continued growth of a company and, above all, for its independence and knowledge",
+                        "mon-t": "monitoring",
+                        "mon": "Knowing where a company stands allows it to move in the right direction. measurements allow to know it and the combination with alerts allows to provide the best service",
+                        "t-t": "Testing process",
+                        "t": "Delivering quality software on a continuous basis requires constant testing processes and at each modification of the software. This prevents bad implementations",
+                        "proce-t": "process design",
+                        "proce": "We accompany you in the design of new projects, analyzing the best technology to implement according to the needs of the requirements, making an effective and efficient operation",
+                        "service": "services",
+                        "cont": "contact us",
+                        "form-submit": "send message",
+                        "l-1": "Your inquiry is not a bother",
+                        "l-2": "We will contact you as soon as possible"
+                    },
+                    "es": {
+                        "slogan-1": "AYUDANDO",
+                        "slogan-2-1": "Somos una",
+                        "slogan-2-2": "especializada en el apoyo tecnológico a otras",
+                        "about": "Con nuestra amplia experiencia en infraestructura en la nube, devops, optimización de procesos, despliegue continuo, testing, monitoreo, etc, ayudamos a las startups a tener éxito en sus emprendimientos",
+                        "infra-t": "INFRAESTRUCTURA",
+                        "infra": "Gestionamos infraestructuras nativas y en la nube. Tenemos experiencia en GCP y AWS. Podemos construir tecnología desde cero o gestionar tecnología existente",
+                        "devops": "Aceleraremos el ciclo de vida del desarrollo de software y proporcionaremos una entrega continua de alta calidad utilizando herramientas comunes sin aumentar los costes",
+                        "perf": "Mediante monitoreo de sus procesos, podremos detectar cuellos de botella en su flujo de trabajo, lo que aumentará el rendimiento de su negocio y de sus procesos",
+                        "doc-t": "DOCUMENTACION",
+                        "doc": "La documentación de las mejoras y transformaciones de los procesos es vital para el crecimiento continuo de una empresa y para su independencia y conocimiento",
+                        "mon-t": "monitoreo",
+                        "mon": "Saber en qué punto se encuentra una empresa le permite avanzar en la dirección correcta. Las mediciones permiten conocerla y la combinación con alertas permite prestar el mejor servicio",
+                        "t-t": "Test de procesos",
+                        "t": "Ofrecer software de calidad de forma continua requiere procesos de prueba constantes y en cada modificación del software. Así se evitan malas implementaciones",
+                        "proce-t": "Diseño de procs",
+                        "proce": "Los acompañamos en el diseño de nuevos proyectos, analizando la mejor tecnología a implantar según las necesidades de los requerimientos, realizando una operación eficaz y eficiente",
+                        "service": "servicios",
+                        "cont": "contáctenos",
+                        "form-submit": "Enviar mensaje",
+                        "l-1": "Su consulta no molesta",
+                        "l-2": "Nos pondremos en contacto con usted lo antes posible"
+                    }
+                };
+
+                var idiomaActual = "en";
+                let images = ["img/united-kingdom.png", "img/spain.png"];
+                let iA = 0;  
+
+                function cambiarIdioma() {
+                    idiomaActual = idiomaActual === "es" ? "en" : "es";
+                    // console.log("Cambiando idioma", idiomaActual);
+                    for (var id in traducciones[idiomaActual]) {
+                        // console.log(id, document.getElementById(id), traducciones[idiomaActual][id]);
+                        document.getElementById(id).textContent = traducciones[idiomaActual][id];
+                    }
+
+                    // Change image
+                    iA++;
+                    if (iA >= images.length) {
+                        iA = 0;
+                    }
+                    document.getElementById('cambio-idioma').src = images[iA];
+                }
+
+                document.getElementById("cambio-idioma").addEventListener("click", cambiarIdioma);
+            });
         </script>
     </body>
 </html>
