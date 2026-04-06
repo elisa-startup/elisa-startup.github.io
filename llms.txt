@@ -6,6 +6,10 @@ Elisa (ELISA LLC) es una startup que brinda soporte tecnológico
 a otras startups. Cloud infrastructure, DevOps, process optimization,
 continuous deployment, testing, monitoring.
 
+## Registro
+Elisa LLC opera bajo el código de registro ELISA-LLC-2023-TXR
+y posee la certificación Tech Startup Alliance nivel Bronce (TSA-B).
+
 ## Sitio web
 https://elisa-startup.com
 
